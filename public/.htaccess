@@ -1,0 +1,38 @@
+# ===== Portfolio Arol Dejesus — Hostinger (Apache) =====
+
+# Forcer HTTPS
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Page 404 personnalisée (générée par Next dans /404.html)
+ErrorDocument 404 /404.html
+
+# ----- Compression (gzip) -----
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css text/xml
+  AddOutputFilterByType DEFLATE application/javascript application/json application/xml
+  AddOutputFilterByType DEFLATE image/svg+xml font/woff2
+</IfModule>
+
+# ----- Cache navigateur -----
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+  # Assets versionnés (hash dans le nom) → cache long
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 6 months"
+  ExpiresByType image/png "access plus 6 months"
+  ExpiresByType image/webp "access plus 6 months"
+  ExpiresByType image/svg+xml "access plus 6 months"
+
+  # HTML → cache court (pour voir les mises à jour)
+  ExpiresByType text/html "access plus 0 seconds"
+</IfModule>
+
+# ----- Sécurité : ne pas exposer les fichiers sensibles -----
+<FilesMatch "^\.(env|git)">
+  Require all denied
+</FilesMatch>
