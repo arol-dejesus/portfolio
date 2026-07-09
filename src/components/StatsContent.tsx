@@ -52,6 +52,27 @@ export default function StatsContent() {
             </Reveal>
           ))}
         </div>
+
+        {/* Concepts & savoir-faire (pas des outils) */}
+        <div className="flex items-center gap-4 mt-10 mb-6">
+          <div className="flex-1 h-px bg-neutral-200 dark:bg-neutral-800" />
+          <span className="text-[0.7rem] font-medium uppercase tracking-[0.3em] text-neutral-400 dark:text-neutral-500">
+            {t.stats.conceptsLabel}
+          </span>
+          <div className="flex-1 h-px bg-neutral-200 dark:bg-neutral-800" />
+        </div>
+        <div className="flex flex-wrap items-center justify-center gap-3">
+          {statsConfig.concepts.map((concept, index) => (
+            <Reveal key={index} delay={index * 60}>
+              <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-brand-500/30 bg-brand-500/5 text-sm font-medium text-brand-600 dark:text-brand-400">
+                <svg className="w-3.5 h-3.5 text-brand-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                {concept}
+              </span>
+            </Reveal>
+          ))}
+        </div>
       </div>
     </section>
   );

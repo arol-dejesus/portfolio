@@ -20,6 +20,7 @@ export const en: Dictionary = {
     description: [
       "Software engineer and full-stack developer, I build web and mobile applications made to last — fast, robust and easy to use.",
       "I help startups, SMEs and project owners from the first mockup to production: React and Node.js on the web, Flutter on mobile, and careful automation (CI/CD, cloud & VPS) to ship fast without bad surprises. Open to remote work and freelance projects.",
+      "I also do SEO: I make businesses visible on Google and boost their online presence.",
     ],
     btnAbout: "About",
     btnPosts: "Read articles",
@@ -27,6 +28,7 @@ export const en: Dictionary = {
   stats: {
     labels: ["Years of exp.", "Projects shipped", "Happy clients", "Technologies"],
     toolsLabel: "Toolbox",
+    conceptsLabel: "Concepts & know-how",
   },
   projects: {
     title: "My projects",

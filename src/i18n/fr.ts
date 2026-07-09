@@ -20,6 +20,7 @@ export const fr = {
     description: [
       "Ingénieur logiciel et développeur full-stack, je conçois des applications web et mobiles pensées pour durer — rapides, robustes et simples à prendre en main.",
       "J'accompagne startups, PME et porteurs de projet de la première maquette jusqu'à la mise en production : React et Node.js côté web, Flutter sur mobile, et une automatisation soignée (CI/CD, cloud & VPS) pour livrer vite et sans mauvaise surprise. Ouvert au télétravail et aux missions freelance.",
+      "Je fais aussi du référencement (SEO) : je rends les entreprises visibles sur Google et booste leur présence en ligne.",
     ],
     btnAbout: "À propos",
     btnPosts: "Voir les articles",
@@ -27,6 +28,7 @@ export const fr = {
   stats: {
     labels: ["Années d'exp.", "Projets livrés", "Clients satisfaits", "Technologies"],
     toolsLabel: "Outils de travail",
+    conceptsLabel: "Concepts & savoir-faire",
   },
   projects: {
     title: "Mes projets",

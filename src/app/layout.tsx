@@ -31,6 +31,9 @@ export const metadata: Metadata = {
     'DevOps',
     'entrepreneur technologique',
     'FOLIO DISTICARET',
+    'référencement SEO',
+    'référencement web',
+    'visibilité en ligne',
     'Cameroun',
     'portfolio',
   ],
@@ -86,7 +89,7 @@ const personJsonLd = {
     { '@type': 'Organization', name: 'FOLIO DISTICARET', url: 'https://foliotr.com' },
     { '@type': 'Organization', name: 'FOLIOTSA', url: 'https://foliotsa.net' },
   ],
-  knowsAbout: ['React', 'Next.js', 'Node.js', 'TypeScript', 'Flutter', 'DevOps', 'CI/CD', 'Entrepreneuriat'],
+  knowsAbout: ['React', 'Next.js', 'Node.js', 'TypeScript', 'Flutter', 'DevOps', 'CI/CD', 'Référencement SEO', 'Entrepreneuriat'],
   sameAs: [
     'https://github.com/arol-dejesus',
     'https://www.linkedin.com/in/arol-dejesus-5175182a2',
