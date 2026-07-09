@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     template: '%s | Arol Dejesus',
   },
   description:
-    "Arol Dejesus (Arol Sorelle Djoutsop) — Software Engineer et développeur full-stack web & mobile (React, Node.js, Flutter, DevOps). Portfolio, projets et contact.",
+    "Arol Dejesus (Arol Sorelle Djoutsop) — Software Engineer, développeur full-stack web & mobile (React, Node.js, Flutter, DevOps) et entrepreneur technologique, co-fondateur de FOLIO DISTICARET. Portfolio, projets et contact.",
   keywords: [
     'Arol Dejesus',
     'Arol Djoutsop',
@@ -29,6 +29,8 @@ export const metadata: Metadata = {
     'Node.js',
     'Flutter',
     'DevOps',
+    'entrepreneur technologique',
+    'FOLIO DISTICARET',
     'Cameroun',
     'portfolio',
   ],
@@ -75,16 +77,18 @@ const personJsonLd = {
   alternateName: ['Arol Sorelle Djoutsop', 'Arol Djoutsop'],
   url: SITE_URL,
   image: `${SITE_URL}/assets/images/about/arol.jpg`,
-  jobTitle: ['Software Engineer', 'Développeur Full-Stack (Web & Mobile)'],
+  jobTitle: ['Software Engineer', 'Développeur Full-Stack (Web & Mobile)', 'Entrepreneur technologique'],
   description:
-    'Software Engineer et développeur full-stack web & mobile (React, Node.js, Flutter, DevOps).',
+    'Software Engineer, développeur full-stack web & mobile (React, Node.js, Flutter, DevOps) et entrepreneur technologique, co-fondateur de FOLIO DISTICARET.',
   address: { '@type': 'PostalAddress', addressCountry: 'CM' },
   email: 'mailto:aroldjoutsop19@gmail.com',
-  knowsAbout: ['React', 'Next.js', 'Node.js', 'TypeScript', 'Flutter', 'DevOps', 'CI/CD'],
+  worksFor: { '@type': 'Organization', name: 'FOLIO DISTICARET', url: 'https://foliotr.com' },
+  knowsAbout: ['React', 'Next.js', 'Node.js', 'TypeScript', 'Flutter', 'DevOps', 'CI/CD', 'Entrepreneuriat'],
   sameAs: [
     'https://github.com/arol-dejesus',
     'https://www.linkedin.com/in/arol-dejesus-5175182a2',
     'https://www.facebook.com/share/15yX33PE6kP/',
+    'https://foliotr.com',
   ],
 };
 
