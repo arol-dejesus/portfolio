@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from "next/font/google";
 import ThemeProvider from '@/components/ThemeProvider'
+import VisitNotifier from '@/components/VisitNotifier'
 import { LanguageProvider } from '@/i18n/LanguageContext'
 
 const inter = Inter({ subsets: ["latin"] });
@@ -114,6 +115,7 @@ export default function RootLayout({
         />
         <ThemeProvider>
           <LanguageProvider>
+            <VisitNotifier />
             <div className="relative h-screen">
               <div className="relative z-10 flex flex-col h-full">
                 {children}
