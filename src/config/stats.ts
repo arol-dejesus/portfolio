@@ -14,6 +14,7 @@ export const statsConfig = {
     { name: "Node.js", color: "#5FA04E" },
     { name: "TypeScript", color: "#3178C6" },
     { name: "JavaScript", color: "#F7DF1E" },
+    { name: "PHP", color: "#777BB4" },
     { name: "Flutter", color: "#02569B" },
     { name: "Tailwind CSS", color: "#38BDF8" },
     { name: "MongoDB", color: "#47A248" },
@@ -23,5 +24,8 @@ export const statsConfig = {
     { name: "GitHub Actions", color: "#2088FF" },
     { name: "Codemagic", color: "#F45E3F" },
     { name: "Linux / VPS", color: "#FCC624" },
+    { name: "Stitch", color: "#4285F4" },
+    { name: "Pencil Dev", color: "#F59E0B" },
+    { name: "Wishy AI", color: "#EC4899" },
   ],
 } as const;
