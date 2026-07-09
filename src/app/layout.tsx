@@ -11,15 +11,17 @@ const SITE_URL = 'https://aroldejesus.vercel.app';
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'Arol Dejesus — Développeur Full-Stack (Web & Mobile)',
+    default: 'Arol Dejesus — Software Engineer & Développeur Full-Stack (Web & Mobile)',
     template: '%s | Arol Dejesus',
   },
   description:
-    "Arol Dejesus (Arol Sorelle Djoutsop) — ingénieur logiciel et développeur full-stack web & mobile (React, Node.js, Flutter, DevOps). Portfolio, projets et contact.",
+    "Arol Dejesus (Arol Sorelle Djoutsop) — Software Engineer et développeur full-stack web & mobile (React, Node.js, Flutter, DevOps). Portfolio, projets et contact.",
   keywords: [
     'Arol Dejesus',
     'Arol Djoutsop',
     'Arol Sorelle Djoutsop',
+    'Software Engineer',
+    'ingénieur logiciel',
     'développeur full-stack',
     'développeur web',
     'développeur mobile',
@@ -43,17 +45,17 @@ export const metadata: Metadata = {
     type: 'website',
     url: SITE_URL,
     siteName: 'Arol Dejesus',
-    title: 'Arol Dejesus — Développeur Full-Stack (Web & Mobile)',
+    title: 'Arol Dejesus — Software Engineer & Développeur Full-Stack',
     description:
-      "Ingénieur logiciel et développeur full-stack web & mobile (React, Node.js, Flutter). Découvre mes projets et contacte-moi.",
+      "Software Engineer et développeur full-stack web & mobile (React, Node.js, Flutter). Découvre mes projets et contacte-moi.",
     locale: 'fr_FR',
     images: [{ url: '/assets/images/og.png', width: 1200, height: 630, alt: 'Arol Dejesus — Développeur Full-Stack' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Arol Dejesus — Développeur Full-Stack',
+    title: 'Arol Dejesus — Software Engineer & Full-Stack Developer',
     description:
-      "Ingénieur logiciel & développeur full-stack web & mobile (React, Node.js, Flutter).",
+      "Software Engineer & développeur full-stack web & mobile (React, Node.js, Flutter).",
     images: ['/assets/images/og.png'],
   },
   icons: {
@@ -73,9 +75,9 @@ const personJsonLd = {
   alternateName: ['Arol Sorelle Djoutsop', 'Arol Djoutsop'],
   url: SITE_URL,
   image: `${SITE_URL}/assets/images/about/arol.jpg`,
-  jobTitle: 'Développeur Full-Stack (Web & Mobile)',
+  jobTitle: ['Software Engineer', 'Développeur Full-Stack (Web & Mobile)'],
   description:
-    'Ingénieur logiciel et développeur full-stack web & mobile (React, Node.js, Flutter, DevOps).',
+    'Software Engineer et développeur full-stack web & mobile (React, Node.js, Flutter, DevOps).',
   address: { '@type': 'PostalAddress', addressCountry: 'CM' },
   email: 'mailto:aroldjoutsop19@gmail.com',
   knowsAbout: ['React', 'Next.js', 'Node.js', 'TypeScript', 'Flutter', 'DevOps', 'CI/CD'],
