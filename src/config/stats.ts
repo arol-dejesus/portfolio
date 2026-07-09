@@ -4,7 +4,7 @@ export const statsConfig = {
     { number: "3", plus: true, label: "Années d'exp." },
     { number: "9", plus: true, label: "Projets livrés" },
     { number: "10", plus: true, label: "Clients satisfaits" },
-    { number: "8", plus: false, label: "Technologies" },
+    { number: "8", plus: true, label: "Technologies" },
   ],
   toolsLabel: "Outils de travail",
   // Pastille colorée = couleur emblématique de chaque techno
