@@ -82,13 +82,18 @@ const personJsonLd = {
     'Software Engineer, développeur full-stack web & mobile (React, Node.js, Flutter, DevOps) et entrepreneur technologique, co-fondateur de FOLIO DISTICARET.',
   address: { '@type': 'PostalAddress', addressCountry: 'CM' },
   email: 'mailto:aroldjoutsop19@gmail.com',
-  worksFor: { '@type': 'Organization', name: 'FOLIO DISTICARET', url: 'https://foliotr.com' },
+  worksFor: [
+    { '@type': 'Organization', name: 'FOLIO DISTICARET', url: 'https://foliotr.com' },
+    { '@type': 'Organization', name: 'FOLIOTSA', url: 'https://foliotsa.net' },
+  ],
   knowsAbout: ['React', 'Next.js', 'Node.js', 'TypeScript', 'Flutter', 'DevOps', 'CI/CD', 'Entrepreneuriat'],
   sameAs: [
     'https://github.com/arol-dejesus',
     'https://www.linkedin.com/in/arol-dejesus-5175182a2',
     'https://www.facebook.com/share/15yX33PE6kP/',
+    'https://www.pinterest.com/aroldjoutsop',
     'https://foliotr.com',
+    'https://foliotsa.net',
   ],
 };
 
