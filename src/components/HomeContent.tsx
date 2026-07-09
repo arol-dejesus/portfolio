@@ -7,7 +7,7 @@ import { useT } from '@/i18n/LanguageContext';
 export default function HomeContent() {
   const t = useT();
   return (
-    <div className="flex-1 flex items-center pt-28 pb-16 lg:py-0">
+    <div className="flex-1 flex items-center pt-28 pb-16 lg:pt-32 lg:pb-12">
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between w-full max-w-6xl mx-auto px-6 lg:px-8 gap-10 lg:gap-16">
         <div className="w-full lg:w-[52%] text-center lg:text-left">
           <h1 className="animate-fade-up text-4xl font-bold tracking-tight text-neutral-900 dark:text-white sm:text-5xl lg:text-6xl">
