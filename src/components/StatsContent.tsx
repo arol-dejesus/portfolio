@@ -62,7 +62,7 @@ export default function StatsContent() {
           <div className="flex-1 h-px bg-neutral-200 dark:bg-neutral-800" />
         </div>
         <div className="flex flex-wrap items-center justify-center gap-3">
-          {statsConfig.concepts.map((concept, index) => (
+          {t.stats.concepts.map((concept, index) => (
             <Reveal key={index} delay={index * 60}>
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-brand-500/30 bg-brand-500/5 text-sm font-medium text-brand-600 dark:text-brand-400">
                 <svg className="w-3.5 h-3.5 text-brand-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">

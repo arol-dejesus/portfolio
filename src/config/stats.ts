@@ -33,6 +33,4 @@ export const statsConfig = {
     { name: "Pencil Dev", color: "#F59E0B" },
     { name: "Wishy AI", color: "#EC4899" },
   ],
-  // Concepts / savoir-faire (ce ne sont PAS des outils)
-  concepts: ["REST API", "Microservices", "CI/CD", "SEO / Référencement web"],
 } as const;
