@@ -32,6 +32,9 @@ export const fr = {
     concepts: [
       "REST API",
       "Microservices",
+      "Monolithe modulaire",
+      "Clean Architecture",
+      "State management",
       "CI/CD",
       "SEO / Référencement web",
       "UI/UX Design",
@@ -77,7 +80,7 @@ export const fr = {
   about: {
     title: "À propos",
     description:
-      "Développeur full-stack, je conçois des applications web et mobiles de bout en bout. Côté web je travaille surtout avec React, Next.js et Node.js ; sur mobile, avec Flutter. J'attache autant d'importance à l'expérience utilisateur qu'à ce qui tourne en coulisses : déploiement sur cloud et VPS, intégration et livraison continues (CI/CD), et automatisation des tâches répétitives. Mon objectif est toujours le même : livrer un produit solide, maintenable et réellement utile, de la première ligne de code jusqu'à la mise en production.",
+      "Software Engineer et développeur full-stack, je conçois des applications web et mobiles de bout en bout. Côté web je travaille surtout avec React, Next.js et Node.js ; sur mobile, avec Flutter. J'attache autant d'importance à l'expérience utilisateur qu'à ce qui tourne en coulisses : déploiement sur cloud et VPS, intégration et livraison continues (CI/CD), et automatisation des tâches répétitives. Mon objectif est toujours le même : livrer un produit solide, maintenable et réellement utile, de la première ligne de code jusqu'à la mise en production.",
     experienceTitle: "Parcours",
     experience: [
       { period: "2025 - aujourd'hui", role: "Développeur mobile (Flutter)", company: "Saah Auto · Groupe Dema Residence", description: "Application mobile de vente de voitures pour le concessionnaire Saah (Yaoundé) : annonces, recherche de véhicules et mise en relation." },

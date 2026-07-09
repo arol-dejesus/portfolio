@@ -32,6 +32,9 @@ export const en: Dictionary = {
     concepts: [
       "REST API",
       "Microservices",
+      "Modular Monolith",
+      "Clean Architecture",
+      "State management",
       "CI/CD",
       "SEO",
       "UI/UX Design",
@@ -77,7 +80,7 @@ export const en: Dictionary = {
   about: {
     title: "About",
     description:
-      "Full-stack developer, I build web and mobile applications end to end. On the web I mostly work with React, Next.js and Node.js; on mobile, with Flutter. I care as much about the user experience as about what happens behind the scenes: cloud and VPS deployment, continuous integration and delivery (CI/CD), and automating repetitive tasks. My goal is always the same: ship a solid, maintainable and genuinely useful product, from the first line of code to production.",
+      "Software Engineer and full-stack developer, I build web and mobile applications end to end. On the web I mostly work with React, Next.js and Node.js; on mobile, with Flutter. I care as much about the user experience as about what happens behind the scenes: cloud and VPS deployment, continuous integration and delivery (CI/CD), and automating repetitive tasks. My goal is always the same: ship a solid, maintainable and genuinely useful product, from the first line of code to production.",
     experienceTitle: "Experience",
     experience: [
       { period: "2025 - present", role: "Mobile developer (Flutter)", company: "Saah Auto · Groupe Dema Residence", description: "Mobile car-sales app for the Saah dealership (Yaoundé): listings, vehicle search and matchmaking." },
