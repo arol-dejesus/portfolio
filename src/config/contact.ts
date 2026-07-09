@@ -8,9 +8,8 @@ export const contactConfig = {
   location: "Cameroun",
   // On utilise Web3Forms (gratuit, sans backend) — endpoint PHP désactivé.
   endpoint: "",
-  // ⚠️ Colle ta clé Web3Forms ici (https://web3forms.com, avec aroldjoutsop19@gmail.com).
-  //    Sans clé, le formulaire ouvre l'app mail du visiteur (repli mailto).
-  web3formsAccessKey: "",
+  // Clé Web3Forms (publique, ok en clair côté client) — messages envoyés à aroldjoutsop19@gmail.com.
+  web3formsAccessKey: "2857e2d4-a7f5-4a3c-8ef1-940625530575",
   form: {
     nameLabel: "Nom",
     namePlaceholder: "Ton nom",
