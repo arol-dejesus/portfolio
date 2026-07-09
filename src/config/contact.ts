@@ -6,14 +6,10 @@ export const contactConfig = {
   phone: "+237 696 41 02 09",
   phoneHref: "+237696410209",
   location: "Cameroun",
-  // Backend PHP sur Hostinger, frontend sur hébergeur gratuit (Vercel/Netlify).
-  // ⚠️ Remplace par l'URL ABSOLUE de ton backend Hostinger, puis rebuild le frontend.
-  //    Ex : "https://ton-domaine-hostinger.com/contact.php"
-  // (Si backend + frontend sont sur le même domaine, tu peux remettre "/contact.php".)
-  // En local, si l'URL n'est pas joignable → repli automatique mailto.
-  endpoint: "https://ton-domaine-hostinger.com/contact.php",
-  // Alternative sans PHP : clé Web3Forms (gratuite, https://web3forms.com).
-  // Utilisée seulement si `endpoint` est vide.
+  // On utilise Web3Forms (gratuit, sans backend) — endpoint PHP désactivé.
+  endpoint: "",
+  // ⚠️ Colle ta clé Web3Forms ici (https://web3forms.com, avec aroldjoutsop19@gmail.com).
+  //    Sans clé, le formulaire ouvre l'app mail du visiteur (repli mailto).
   web3formsAccessKey: "",
   form: {
     nameLabel: "Nom",
