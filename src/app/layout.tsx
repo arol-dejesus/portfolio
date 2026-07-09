@@ -61,6 +61,9 @@ export const metadata: Metadata = {
     shortcut: '/assets/images/favicon.png',
     apple: '/assets/images/favicon.png',
   },
+  verification: {
+    google: 'MRtmgXOSvObc60CS3Q5r50DGSBdEIucd4n3cvP6QXP0',
+  },
 };
 
 const personJsonLd = {
