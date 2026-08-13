@@ -5,6 +5,7 @@ import ThemeProvider from '@/components/ThemeProvider'
 import { Analytics } from '@vercel/analytics/next'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import { LanguageProvider } from '@/i18n/LanguageContext'
+import WhatsAppButton from '@/components/WhatsAppButton'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -121,6 +122,7 @@ export default function RootLayout({
             <div className="relative h-screen">
               <div className="relative z-10 flex flex-col h-full">
                 {children}
+                <WhatsAppButton />
               </div>
             </div>
           </LanguageProvider>
