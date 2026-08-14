@@ -111,7 +111,7 @@ export default function Navbar() {
 
             <Link
               href="#contact"
-              className="hidden sm:inline-flex items-center gap-1.5 rounded-lg bg-brand-500 px-4 py-2 text-sm font-medium text-white shadow-sm shadow-brand-500/30 hover:bg-brand-600 hover:scale-[1.03] transition-all duration-200"
+              className="shine hidden sm:inline-flex items-center gap-1.5 rounded-lg bg-brand-500 px-4 py-2 text-sm font-medium text-white shadow-sm shadow-brand-500/30 hover:bg-brand-600 hover:scale-[1.03] transition-all duration-200"
             >
               {t.header.contactBtn}
             </Link>

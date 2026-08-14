@@ -34,7 +34,7 @@ export default function ServicesContent() {
 
       <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {t.services.items.map((service, index) => (
-          <Reveal key={index} delay={index * 100}>
+          <Reveal key={index} delay={index * 100} variant="scale">
             <div className="group relative h-full flex flex-col p-6 rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white/70 dark:bg-neutral-900/70 hover:border-brand-500/60 hover:-translate-y-1 hover:shadow-xl hover:shadow-brand-500/10 transition-all duration-300">
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-brand-500/15 to-brand-green/15 text-brand-500 group-hover:from-brand-500 group-hover:to-brand-green group-hover:text-white transition-all duration-300">
                 <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -68,7 +68,7 @@ export default function ServicesContent() {
         </span>
         <Link
           href="#contact"
-          className="group inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-white bg-brand-500 rounded-lg shadow-lg shadow-brand-500/30 hover:bg-brand-600 transition-all duration-300 hover:scale-105"
+          className="shine group inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-white bg-brand-500 rounded-lg shadow-lg shadow-brand-500/30 hover:bg-brand-600 transition-all duration-300 hover:scale-105"
         >
           {t.services.ctaButton}
           <svg className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">

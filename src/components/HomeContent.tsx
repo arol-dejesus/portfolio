@@ -38,7 +38,7 @@ export default function HomeContent() {
           <div className="animate-fade-up flex flex-row flex-wrap justify-center lg:justify-start gap-4 mt-8" style={{ animationDelay: '430ms' }}>
             <Link
               href="#about"
-              className="group inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-brand-500 rounded-lg shadow-lg shadow-brand-500/30 hover:bg-brand-600 transition-all duration-300 hover:scale-105 cursor-pointer"
+              className="shine group inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-brand-500 rounded-lg shadow-lg shadow-brand-500/30 hover:bg-brand-600 transition-all duration-300 hover:scale-105 cursor-pointer"
             >
               {t.hero.btnAbout}
               <svg
@@ -81,16 +81,20 @@ export default function HomeContent() {
         <div className="relative w-full lg:w-[45%] flex items-center justify-center">
           {/* Hexagonal photo with a brand gradient border */}
           <div className="animate-fade-up relative w-[260px] h-[300px] sm:w-[320px] sm:h-[368px] lg:w-[380px] lg:h-[438px]" style={{ animationDelay: '250ms' }}>
-            <div className="absolute inset-0 bg-gradient-to-br from-brand-500 to-brand-green [clip-path:polygon(50%_0%,100%_25%,100%_75%,50%_100%,0%_75%,0%_25%)]" />
-            <div className="absolute inset-[6px] overflow-hidden [clip-path:polygon(50%_0%,100%_25%,100%_75%,50%_100%,0%_75%,0%_25%)]">
-              <Image
-                src="/assets/images/about/arol-hero.jpg"
-                alt="Arol Dejesus"
-                fill
-                sizes="(max-width: 768px) 80vw, 380px"
-                className="object-cover object-center"
-                priority
-              />
+            {/* Soft rotating brand halo behind the photo */}
+            <div className="absolute -inset-8 -z-10 rounded-full opacity-50 blur-2xl animate-spin-slow bg-[conic-gradient(from_0deg,#f95d17,#1f7a3d,#ff5a1f,#f95d17)]" />
+            <div className="animate-float relative w-full h-full">
+              <div className="absolute inset-0 bg-gradient-to-br from-brand-500 to-brand-green [clip-path:polygon(50%_0%,100%_25%,100%_75%,50%_100%,0%_75%,0%_25%)]" />
+              <div className="absolute inset-[6px] overflow-hidden [clip-path:polygon(50%_0%,100%_25%,100%_75%,50%_100%,0%_75%,0%_25%)]">
+                <Image
+                  src="/assets/images/about/arol-hero.jpg"
+                  alt="Arol Dejesus"
+                  fill
+                  sizes="(max-width: 768px) 80vw, 380px"
+                  className="object-cover object-center"
+                  priority
+                />
+              </div>
             </div>
           </div>
         </div>

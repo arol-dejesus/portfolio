@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import ThemeProvider from '@/components/ThemeProvider'
 import { Analytics } from '@vercel/analytics/next'
 import { SpeedInsights } from '@vercel/speed-insights/next'
+import ScrollProgress from '@/components/ScrollProgress'
 import { LanguageProvider } from '@/i18n/LanguageContext'
 import WhatsAppButton from '@/components/WhatsAppButton'
 
@@ -117,6 +118,7 @@ export default function RootLayout({
         />
         <ThemeProvider>
           <LanguageProvider>
+            <ScrollProgress />
             <Analytics />
             <SpeedInsights />
             <div className="relative h-screen">

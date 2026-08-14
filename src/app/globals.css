@@ -19,6 +19,24 @@ html {
   transform: none;
 }
 
+/* Scroll-reveal variants — direction & effect controlled by the Reveal component */
+.reveal-left {
+  transform: translateX(-40px);
+}
+.reveal-right {
+  transform: translateX(40px);
+}
+.reveal-scale {
+  transform: scale(0.92);
+}
+.reveal-blur {
+  filter: blur(10px);
+  transform: translateY(20px);
+}
+.reveal-visible.reveal-blur {
+  filter: blur(0);
+}
+
 /* Hero entrance — plays on load, staggered via inline animation-delay */
 @keyframes fade-up {
   from {
@@ -35,16 +53,81 @@ html {
   animation: fade-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
+/* Gentle floating (hero photo) */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-14px); }
+}
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Slowly rotating conic gradient (hero photo ring) */
+@keyframes spin-slow {
+  to { transform: rotate(360deg); }
+}
+.animate-spin-slow {
+  animation: spin-slow 12s linear infinite;
+}
+
+/* Flowing gradient (animated text / borders) */
+@keyframes gradient-x {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+.animate-gradient-x {
+  background-size: 200% 200%;
+  animation: gradient-x 5s ease infinite;
+}
+
+/* Shine sweep on hover (buttons) */
+.shine {
+  position: relative;
+  overflow: hidden;
+}
+.shine::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(
+    100deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.35) 50%,
+    transparent 100%
+  );
+  transform: skewX(-20deg);
+  transition: left 0.7s ease;
+}
+.shine:hover::after {
+  left: 150%;
+}
+
+/* Scroll progress bar */
+.scroll-progress {
+  transform-origin: 0 50%;
+  will-change: transform;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
   .reveal,
-  .animate-fade-up {
+  .animate-fade-up,
+  .animate-float,
+  .animate-spin-slow,
+  .animate-gradient-x {
     opacity: 1 !important;
     transform: none !important;
+    filter: none !important;
     transition: none !important;
     animation: none !important;
+  }
+  .shine::after {
+    display: none;
   }
 }
 
