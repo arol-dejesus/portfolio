@@ -94,6 +94,7 @@ export const fr = {
     items: [
       { title: "Postora — SaaS social media", description: "SaaS de gestion des réseaux sociaux pour community & social managers : publication multi-réseaux (Instagram, TikTok, LinkedIn, X…), analytics, recommandations IA et stratégies de croissance." },
       { title: "VotezPCO — Vote en ligne", description: "Système de vote en ligne transparent et sécurisé pour les élections du PCO, réalisé avec le comité d'étudiants de l'Université Alassane Ouattara (Côte d'Ivoire)." },
+      { title: "Bal UAO — Vote en ligne", description: "Plateforme de vote pour l'élection du Roi & de la Reine du Bal de l'Université Alassane Ouattara : paiement Mobile Money, vote sécurisé et résultats en direct." },
       { title: "Folio E-School", description: "Plateforme de cours de langues (anglais, français, allemand, turc) avec des experts natifs — apps iOS/Android et version web, en architecture microservices." },
       { title: "NKWEL — E-commerce", description: "Application mobile e-commerce (Flutter) pour faire ses provisions du marché sans se déplacer : établissements, catégories, paiement sécurisé et livraison." },
       { title: "Saah Auto — App auto", description: "Application mobile (Flutter) de vente de voitures pour le concessionnaire Saah (Groupe Dema Residence, Yaoundé) : annonces, recherche et mise en relation." },

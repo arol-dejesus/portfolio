@@ -20,6 +20,13 @@ export const projectsConfig = {
       imageUrl: "/assets/images/projects/votezpco.png"
     },
     {
+      title: "Bal UAO — Vote en ligne",
+      description:
+        "Plateforme de vote pour l'élection du Roi & de la Reine du Bal de l'Université Alassane Ouattara : paiement Mobile Money, vote sécurisé et résultats en direct.",
+      href: "https://vote-uao.netlify.app/",
+      imageUrl: "/assets/images/projects/bal-uao.png"
+    },
+    {
       title: "Folio E-School",
       description:
         "Plateforme de cours de langues (anglais, français, allemand, turc) avec des experts natifs — apps iOS/Android et version web, en architecture microservices.",

@@ -94,6 +94,7 @@ export const en: Dictionary = {
     items: [
       { title: "Postora — Social media SaaS", description: "Social media management SaaS for community & social managers: multi-network publishing (Instagram, TikTok, LinkedIn, X…), analytics, AI recommendations and growth strategies." },
       { title: "VotezPCO — Online voting", description: "Transparent and secure online voting system for the PCO elections, built with the student committee of Université Alassane Ouattara (Ivory Coast)." },
+      { title: "Bal UAO — Online voting", description: "Voting platform for the King & Queen of the Ball election at Université Alassane Ouattara: Mobile Money payment, secure voting and live results." },
       { title: "Folio E-School", description: "Language-learning platform (English, French, German, Turkish) with native experts — iOS/Android apps and a web version, on a microservices architecture." },
       { title: "NKWEL — E-commerce", description: "E-commerce mobile app (Flutter) to do your market shopping without leaving home: vendors, categories, secure payment and delivery." },
       { title: "Saah Auto — Car app", description: "Mobile car-sales app (Flutter) for the Saah dealership (Groupe Dema Residence, Yaoundé): listings, search and matchmaking." },
