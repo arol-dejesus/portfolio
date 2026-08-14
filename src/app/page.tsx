@@ -6,6 +6,7 @@ import PostsContent from '@/components/PostsContent';
 import AboutContent from '@/components/AboutContent';
 import ContactContent from '@/components/ContactContent';
 import StatsContent from '@/components/StatsContent';
+import ServicesContent from '@/components/ServicesContent';
 import Reveal from '@/components/Reveal';
 
 export default function Home() {
@@ -26,6 +27,13 @@ export default function Home() {
 
         {/* Chiffres clés + outils de travail */}
         <StatsContent />
+
+        {/* Services — offre freelance claire */}
+        <section id="services" className="scroll-mt-20">
+          <Reveal>
+            <ServicesContent />
+          </Reveal>
+        </section>
 
         <section id="projects" className="scroll-mt-20">
           <ProjectsContent />

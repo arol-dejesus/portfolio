@@ -13,6 +13,7 @@ export default function Navbar() {
   const t = useT();
   const navLabel: Record<string, string> = {
     home: t.nav.home,
+    services: t.nav.services,
     projects: t.nav.projects,
     posts: t.nav.articles,
     about: t.nav.about,

@@ -5,6 +5,7 @@ export const fr = {
   code: "fr",
   nav: {
     home: "Accueil",
+    services: "Services",
     projects: "Projets",
     articles: "Articles",
     about: "À propos",
@@ -14,6 +15,7 @@ export const fr = {
     contactBtn: "Me contacter",
   },
   hero: {
+    availability: "Disponible pour missions freelance",
     greeting: "Bonjour, je suis",
     realNameLabel: "De vrai nom :",
     realName: "Arol Sorelle Djoutsop",
@@ -40,12 +42,50 @@ export const fr = {
       "UI/UX Design",
       "Authentification (JWT / OAuth)",
       "Paiement en ligne",
+      "Paiement Mobile Money",
+      "Applications SaaS",
+      "Intégration d'IA (API)",
+      "Tableaux de bord & analytics",
+      "Optimisation des performances (Core Web Vitals)",
       "Temps réel (WebSocket)",
       "Automatisation / Workflow",
       "Responsive design",
       "E-commerce",
       "Notifications push",
     ],
+  },
+  services: {
+    title: "Ce que je peux faire pour vous",
+    description:
+      "De l'idée à la mise en ligne, je prends en charge tout le cycle de votre produit. Voici comment je peux vous aider concrètement.",
+    items: [
+      {
+        title: "Développement Web",
+        description:
+          "Sites et applications web modernes, rapides et sécurisés — du site vitrine à la plateforme SaaS sur mesure.",
+        points: ["React & Next.js", "API & back-end Node.js", "E-commerce & SaaS"],
+      },
+      {
+        title: "Développement Mobile",
+        description:
+          "Applications iOS & Android performantes à partir d'une seule base de code, pensées pour vos utilisateurs.",
+        points: ["Flutter (iOS & Android)", "Paiement Mobile Money", "Publication sur les stores"],
+      },
+      {
+        title: "SEO & Visibilité",
+        description:
+          "Je rends votre entreprise visible sur Google et booste votre présence en ligne pour attirer plus de clients.",
+        points: ["Référencement Google", "Performance & Core Web Vitals", "Visibilité & croissance"],
+      },
+      {
+        title: "Déploiement & Maintenance",
+        description:
+          "Mise en production fiable et suivi dans la durée : votre produit reste stable, rapide et à jour.",
+        points: ["Cloud & VPS", "CI/CD & automatisation", "Suivi & support"],
+      },
+    ],
+    ctaText: "Un projet en tête ?",
+    ctaButton: "Parlons-en",
   },
   projects: {
     title: "Mes projets",

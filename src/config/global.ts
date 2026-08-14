@@ -14,6 +14,11 @@ export const globalConfig = {
         id: "home"
       },
       {
+        title: "Services",
+        href: "/#services",
+        id: "services"
+      },
+      {
         title: "Projets",
         href: "/#projects",
         id: "projects"

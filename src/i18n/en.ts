@@ -5,6 +5,7 @@ export const en: Dictionary = {
   code: "en",
   nav: {
     home: "Home",
+    services: "Services",
     projects: "Projects",
     articles: "Articles",
     about: "About",
@@ -14,6 +15,7 @@ export const en: Dictionary = {
     contactBtn: "Contact me",
   },
   hero: {
+    availability: "Available for freelance work",
     greeting: "Hi, I'm",
     realNameLabel: "Real name:",
     realName: "Arol Sorelle Djoutsop",
@@ -40,12 +42,50 @@ export const en: Dictionary = {
       "UI/UX Design",
       "Authentication (JWT / OAuth)",
       "Online payments",
+      "Mobile Money payments",
+      "SaaS applications",
+      "AI integration (API)",
+      "Dashboards & analytics",
+      "Performance optimization (Core Web Vitals)",
       "Real-time (WebSocket)",
       "Automation / Workflow",
       "Responsive design",
       "E-commerce",
       "Push notifications",
     ],
+  },
+  services: {
+    title: "What I can do for you",
+    description:
+      "From idea to launch, I handle your product's whole lifecycle. Here's how I can help you concretely.",
+    items: [
+      {
+        title: "Web Development",
+        description:
+          "Modern, fast and secure websites and web apps — from a landing page to a custom SaaS platform.",
+        points: ["React & Next.js", "Node.js APIs & back-end", "E-commerce & SaaS"],
+      },
+      {
+        title: "Mobile Development",
+        description:
+          "High-performance iOS & Android apps from a single codebase, built for your users.",
+        points: ["Flutter (iOS & Android)", "Mobile Money payments", "App store publishing"],
+      },
+      {
+        title: "SEO & Visibility",
+        description:
+          "I make your business visible on Google and boost your online presence to attract more clients.",
+        points: ["Google ranking", "Performance & Core Web Vitals", "Visibility & growth"],
+      },
+      {
+        title: "Deployment & Maintenance",
+        description:
+          "Reliable go-live and long-term care: your product stays stable, fast and up to date.",
+        points: ["Cloud & VPS", "CI/CD & automation", "Monitoring & support"],
+      },
+    ],
+    ctaText: "Got a project in mind?",
+    ctaButton: "Let's talk",
   },
   projects: {
     title: "My projects",

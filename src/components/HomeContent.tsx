@@ -10,6 +10,13 @@ export default function HomeContent() {
     <div className="flex-1 flex items-center pt-28 pb-16 lg:pt-32 lg:pb-12">
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between w-full max-w-6xl mx-auto px-6 lg:px-8 gap-10 lg:gap-16">
         <div className="w-full lg:w-[52%] text-center lg:text-left">
+          <span className="animate-fade-up inline-flex items-center gap-2 mb-5 px-3 py-1.5 rounded-full border border-brand-green/30 bg-brand-green/5 text-xs font-semibold text-brand-green dark:text-brand-green-light">
+            <span className="relative flex h-2 w-2">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-brand-green opacity-75" />
+              <span className="relative inline-flex h-2 w-2 rounded-full bg-brand-green" />
+            </span>
+            {t.hero.availability}
+          </span>
           <h1 className="animate-fade-up text-4xl font-bold tracking-tight text-neutral-900 dark:text-white sm:text-5xl lg:text-6xl">
             {t.hero.greeting}{' '}
             <span className="text-brand-green dark:text-brand-green-light">Arol</span>
