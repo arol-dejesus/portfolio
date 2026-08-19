@@ -10,6 +10,7 @@ import ServicesContent from '@/components/ServicesContent';
 import ProcessContent from '@/components/ProcessContent';
 import FaqContent from '@/components/FaqContent';
 import FinalCta from '@/components/FinalCta';
+import TrustBand from '@/components/TrustBand';
 import Reveal from '@/components/Reveal';
 
 export default function Home() {
@@ -27,6 +28,9 @@ export default function Home() {
         <section id="home" className="min-h-screen flex flex-col scroll-mt-20">
           <HomeContent />
         </section>
+
+        {/* Preuve sociale — organisations réelles du parcours */}
+        <TrustBand />
 
         {/* Chiffres clés + outils de travail */}
         <StatsContent />

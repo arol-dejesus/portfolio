@@ -2,6 +2,7 @@
 
 import { statsConfig } from '@/config/stats';
 import Reveal from './Reveal';
+import Counter from './Counter';
 import { useT } from '@/i18n/LanguageContext';
 
 export default function StatsContent() {
@@ -13,10 +14,7 @@ export default function StatsContent() {
         {statsConfig.stats.map((stat, index) => (
           <Reveal key={index} delay={index * 100} className="text-center px-4 py-4">
             <div className="text-4xl sm:text-5xl font-extrabold tracking-tight text-neutral-900 dark:text-white">
-              {stat.number}
-              {stat.plus && (
-                <span className="text-brand-green dark:text-brand-green-light">+</span>
-              )}
+              <Counter value={stat.number} plus={stat.plus} />
             </div>
             <div className="mt-2 text-[0.7rem] font-medium uppercase tracking-[0.2em] text-neutral-500 dark:text-neutral-400">
               {t.stats.labels[index] ?? stat.label}

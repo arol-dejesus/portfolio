@@ -14,6 +14,9 @@ export const fr = {
   header: {
     contactBtn: "Me contacter",
   },
+  trust: {
+    label: "Ils m'ont fait confiance",
+  },
   hero: {
     availability: "Disponible pour missions freelance",
     greeting: "Bonjour, je suis",

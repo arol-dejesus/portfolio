@@ -14,6 +14,9 @@ export const en: Dictionary = {
   header: {
     contactBtn: "Contact me",
   },
+  trust: {
+    label: "Trusted by",
+  },
   hero: {
     availability: "Available for freelance work",
     greeting: "Hi, I'm",
