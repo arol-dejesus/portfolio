@@ -7,6 +7,9 @@ import AboutContent from '@/components/AboutContent';
 import ContactContent from '@/components/ContactContent';
 import StatsContent from '@/components/StatsContent';
 import ServicesContent from '@/components/ServicesContent';
+import ProcessContent from '@/components/ProcessContent';
+import FaqContent from '@/components/FaqContent';
+import FinalCta from '@/components/FinalCta';
 import Reveal from '@/components/Reveal';
 
 export default function Home() {
@@ -35,6 +38,11 @@ export default function Home() {
           </Reveal>
         </section>
 
+        {/* Process — rassure sur la façon de travailler */}
+        <section id="process" className="scroll-mt-20">
+          <ProcessContent />
+        </section>
+
         <section id="projects" className="scroll-mt-20">
           <ProjectsContent />
         </section>
@@ -48,6 +56,14 @@ export default function Home() {
             <AboutContent />
           </Reveal>
         </section>
+
+        {/* FAQ — lève les objections avant le contact */}
+        <section id="faq" className="scroll-mt-20">
+          <FaqContent />
+        </section>
+
+        {/* Appel à l'action final — pousse au contact */}
+        <FinalCta />
 
         <section id="contact" className="scroll-mt-20">
           <Reveal>

@@ -87,6 +87,37 @@ export const en: Dictionary = {
     ctaText: "Got a project in mind?",
     ctaButton: "Let's talk",
   },
+  process: {
+    title: "How I work",
+    description:
+      "A simple, transparent process from the first chat to launch — you always know where your project stands.",
+    steps: [
+      { title: "Chat & scoping", description: "We discuss your needs, goals and constraints. Free and no strings attached." },
+      { title: "Clear quote", description: "You get a detailed quote: scope, timeline and budget. No surprises along the way." },
+      { title: "Development", description: "I build and keep you updated regularly: you see your project progress step by step." },
+      { title: "Delivery & support", description: "Go-live, tool onboarding and support. Your project stays in good hands." },
+    ],
+  },
+  faq: {
+    title: "Frequently asked questions",
+    description: "Everything you want to know before reaching out.",
+    items: [
+      { q: "How much does a project cost?", a: "Every project is unique. After a free first chat, I send you a clear, detailed quote tailored to your budget and goals." },
+      { q: "How long does delivery take?", a: "A showcase website usually takes a few days to two weeks; a custom app, a few weeks. I give you a precise timeline in the quote." },
+      { q: "Do you work remotely?", a: "Yes, I work remotely with clients all over the world. We talk over video call, WhatsApp or email, whatever suits you." },
+      { q: "Who owns the code?", a: "You do, entirely. The source code is delivered to you and you own it 100%." },
+      { q: "Do you handle maintenance?", a: "Yes. After delivery, I stay available for updates, fixes and future improvements of your product." },
+      { q: "How do we get started?", a: "Message me via the form or WhatsApp. I reply within 24h and we schedule a free first chat." },
+    ],
+  },
+  finalCta: {
+    title: "Ready to bring your project to life?",
+    description:
+      "Let's talk about your idea today. Free first chat, reply within 24h — and you'll leave with a clear view of the next steps.",
+    primaryBtn: "Start my project",
+    whatsappBtn: "Chat on WhatsApp",
+    guarantees: ["Free quote", "Reply within 24h", "Source code delivered", "No commitment"],
+  },
   projects: {
     title: "My projects",
     description:

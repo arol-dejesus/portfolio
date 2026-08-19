@@ -87,6 +87,37 @@ export const fr = {
     ctaText: "Un projet en tête ?",
     ctaButton: "Parlons-en",
   },
+  process: {
+    title: "Comment je travaille",
+    description:
+      "Un processus simple et transparent, du premier échange à la mise en ligne — vous savez toujours où en est votre projet.",
+    steps: [
+      { title: "Échange & cadrage", description: "On discute de votre besoin, vos objectifs et vos contraintes. Gratuit et sans engagement." },
+      { title: "Devis clair", description: "Vous recevez un devis détaillé : périmètre, délais et budget. Aucune surprise en cours de route." },
+      { title: "Développement", description: "Je code et je vous tiens informé régulièrement : vous voyez votre projet avancer étape par étape." },
+      { title: "Livraison & suivi", description: "Mise en production, prise en main de l'outil et support. Votre projet reste entre de bonnes mains." },
+    ],
+  },
+  faq: {
+    title: "Questions fréquentes",
+    description: "Tout ce que vous voulez savoir avant de me contacter.",
+    items: [
+      { q: "Combien coûte un projet ?", a: "Chaque projet est unique. Après un premier échange gratuit, je vous envoie un devis clair et détaillé, adapté à votre budget et à vos objectifs." },
+      { q: "En combien de temps livrez-vous ?", a: "Un site vitrine prend généralement de quelques jours à deux semaines ; une application sur mesure, quelques semaines. Je vous donne un délai précis dès le devis." },
+      { q: "Travaillez-vous à distance ?", a: "Oui, je travaille en télétravail avec des clients partout dans le monde. Les échanges se font par visio, WhatsApp ou email, selon votre préférence." },
+      { q: "À qui appartient le code ?", a: "À vous, entièrement. Le code source vous est livré et vous en êtes propriétaire à 100 %." },
+      { q: "Assurez-vous la maintenance ?", a: "Oui. Après la livraison, je reste disponible pour les mises à jour, les corrections et les évolutions de votre produit." },
+      { q: "Comment démarrer ?", a: "Écrivez-moi via le formulaire ou WhatsApp. Je réponds sous 24h et on planifie un premier échange gratuit." },
+    ],
+  },
+  finalCta: {
+    title: "Prêt à donner vie à votre projet ?",
+    description:
+      "Discutons de votre idée dès aujourd'hui. Premier échange gratuit, réponse sous 24h — et vous repartez avec une vision claire des prochaines étapes.",
+    primaryBtn: "Démarrer mon projet",
+    whatsappBtn: "Discuter sur WhatsApp",
+    guarantees: ["Devis gratuit", "Réponse sous 24h", "Code source livré", "Sans engagement"],
+  },
   projects: {
     title: "Mes projets",
     description:
