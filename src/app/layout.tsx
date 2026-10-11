@@ -10,19 +10,19 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 
 const inter = Inter({ subsets: ["latin"] });
 
-const SITE_URL = 'https://aroldejesus.vercel.app';
+const SITE_URL = 'https://aroldjoutsop.vercel.app';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'Arol Dejesus — Software Engineer & Développeur Full-Stack (Web & Mobile)',
-    template: '%s | Arol Dejesus',
+    default: 'Arol Djoutsop — Software Engineer & Développeur Full-Stack (Web & Mobile)',
+    template: '%s | Arol Djoutsop',
   },
   description:
-    "Arol Dejesus (Arol Sorelle Djoutsop) — Software Engineer, développeur full-stack web & mobile (React, Node.js, Flutter, DevOps) et entrepreneur technologique, co-fondateur de FOLIO DISTICARET. Portfolio, projets et contact.",
+    "Arol Djoutsop (aussi connu sous Arol Dejesus) — Software Engineer, développeur full-stack web & mobile (React, Node.js, Flutter, DevOps) et entrepreneur technologique, co-fondateur de FOLIO DISTICARET. Portfolio, projets et contact.",
   keywords: [
-    'Arol Dejesus',
     'Arol Djoutsop',
+    'Arol Dejesus',
     'Arol Sorelle Djoutsop',
     'Software Engineer',
     'ingénieur logiciel',
@@ -41,9 +41,9 @@ export const metadata: Metadata = {
     'Cameroun',
     'portfolio',
   ],
-  authors: [{ name: 'Arol Dejesus', url: SITE_URL }],
-  creator: 'Arol Dejesus',
-  publisher: 'Arol Dejesus',
+  authors: [{ name: 'Arol Djoutsop', url: SITE_URL }],
+  creator: 'Arol Djoutsop',
+  publisher: 'Arol Djoutsop',
   alternates: { canonical: '/' },
   robots: {
     index: true,
@@ -53,16 +53,16 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: SITE_URL,
-    siteName: 'Arol Dejesus',
-    title: 'Arol Dejesus — Software Engineer & Développeur Full-Stack',
+    siteName: 'Arol Djoutsop',
+    title: 'Arol Djoutsop — Software Engineer & Développeur Full-Stack',
     description:
       "Software Engineer et développeur full-stack web & mobile (React, Node.js, Flutter). Découvre mes projets et contacte-moi.",
     locale: 'fr_FR',
-    images: [{ url: '/assets/images/og.png', width: 1200, height: 630, alt: 'Arol Dejesus — Développeur Full-Stack' }],
+    images: [{ url: '/assets/images/og.png', width: 1200, height: 630, alt: 'Arol Djoutsop — Développeur Full-Stack' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Arol Dejesus — Software Engineer & Full-Stack Developer',
+    title: 'Arol Djoutsop — Software Engineer & Full-Stack Developer',
     description:
       "Software Engineer & développeur full-stack web & mobile (React, Node.js, Flutter).",
     images: ['/assets/images/og.png'],
@@ -80,13 +80,15 @@ export const metadata: Metadata = {
 const personJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Person',
-  name: 'Arol Dejesus',
-  alternateName: ['Arol Sorelle Djoutsop', 'Arol Djoutsop'],
+  name: 'Arol Djoutsop',
+  alternateName: ['Arol Sorelle Djoutsop', 'Arol Dejesus'],
   url: SITE_URL,
   image: `${SITE_URL}/assets/images/about/arol.jpg`,
   jobTitle: ['Software Engineer', 'Développeur Full-Stack (Web & Mobile)', 'Entrepreneur technologique'],
   description:
-    'Software Engineer, développeur full-stack web & mobile (React, Node.js, Flutter, DevOps) et entrepreneur technologique, co-fondateur de FOLIO DISTICARET.',
+    "Software Engineer et développeur full-stack, je conçois des applications web et mobiles de bout en bout. Côté web je travaille surtout avec React, Next.js et Node.js ; sur mobile, avec Flutter. J'attache autant d'importance à l'expérience utilisateur qu'à ce qui tourne en coulisses : déploiement cloud et VPS, intégration et livraison continues (CI/CD), et automatisation des tâches répétitives. Mon objectif est toujours le même : livrer un produit solide, maintenable et réellement utile, de la première ligne de code jusqu'à la mise en production. Entrepreneur technologique, co-fondateur de FOLIO DISTICARET.",
+  disambiguatingDescription:
+    "Arol Djoutsop (Arol Sorelle Djoutsop, aussi connu sous Arol Dejesus), développeur full-stack et entrepreneur technologique basé au Cameroun — distinct d'Arol Ketchiemen (dit Arol Ketch), écrivain et chroniqueur.",
   address: { '@type': 'PostalAddress', addressCountry: 'CM' },
   email: 'mailto:aroldjoutsop19@gmail.com',
   worksFor: [

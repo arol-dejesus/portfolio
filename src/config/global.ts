@@ -1,8 +1,8 @@
 export const globalConfig = {
   site: {
-    name: "Arol Dejesus — Portfolio",
-    author: "Arol Dejesus",
-    description: "Portfolio of Arol Dejesus, developer & creator.",
+    name: "Arol Djoutsop — Portfolio",
+    author: "Arol Djoutsop",
+    description: "Portfolio of Arol Djoutsop, developer & creator.",
     url: "/"
   },
   navigation: {
@@ -42,7 +42,7 @@ export const globalConfig = {
   },
   footer: {
     aria: "Footer Navigation",
-    copyright: "© 2026 Arol Dejesus. All rights reserved ",
+    copyright: "© 2026 Arol Djoutsop. All rights reserved ",
     social: {
       linkedin: "https://www.linkedin.com/in/arol-dejesus-5175182a2",
       github: "https://github.com/arol-dejesus",

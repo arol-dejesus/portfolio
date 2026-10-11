@@ -24,8 +24,8 @@ export const en: Dictionary = {
   hero: {
     availability: "Available for freelance work",
     greeting: "Hi, I'm",
-    realNameLabel: "Real name:",
-    realName: "Arol Sorelle Djoutsop",
+    realNameLabel: "Also known as:",
+    realName: "Arol Dejesus",
     description: [
       "Software engineer and full-stack developer, I build web and mobile applications made to last — fast, robust and easy to use.",
       "I help startups, SMEs and project owners from the first mockup to production: React and Node.js on the web, Flutter on mobile, and careful automation (CI/CD, cloud & VPS) to ship fast without bad surprises. Open to remote work and freelance projects.",
@@ -135,6 +135,7 @@ export const en: Dictionary = {
       { title: "Bal UAO — Online voting", description: "Voting platform for the King & Queen of the Ball election at Université Alassane Ouattara: Mobile Money payment, secure voting and live results." },
       { title: "Folio E-School", description: "Language-learning platform (English, French, German, Turkish) with native experts — iOS/Android apps and a web version, on a microservices architecture." },
       { title: "NKWEL — E-commerce", description: "E-commerce mobile app (Flutter) to do your market shopping without leaving home: vendors, categories, secure payment and delivery." },
+      { title: "NKWEL — Web", description: "Web version of NKWEL: an online marketplace to do your shopping without leaving home, with secure payment and delivery." },
       { title: "Saah Auto — Car app", description: "Mobile car-sales app (Flutter) for the Saah dealership (Groupe Dema Residence, Yaoundé): listings, search and matchmaking." },
       { title: "NH Guide — Humanitarian aid", description: "Humanitarian and social aid platform (emergency shelters, housing access, guidance courses), built in collaboration with the U.S. government." },
       { title: "Sayes Performance", description: "Management platform for a gym dedicated to training professional athletes (football, etc.), in collaboration with Turkish partners." },

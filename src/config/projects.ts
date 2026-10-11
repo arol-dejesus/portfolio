@@ -41,6 +41,13 @@ export const projectsConfig = {
       imageUrl: "/assets/images/projects/nkwel.png"
     },
     {
+      title: "NKWEL — Web",
+      description:
+        "Version web de NKWEL : place de marché en ligne pour faire ses provisions sans se déplacer, avec paiement sécurisé et livraison.",
+      href: "https://nkwel.com/",
+      imageUrl: "/assets/images/projects/nkwel-web.png"
+    },
+    {
       title: "Saah Auto — App auto",
       description:
         "Application mobile (Flutter) de vente de voitures pour le concessionnaire Saah (Groupe Dema Residence, Yaoundé) : annonces, recherche et mise en relation.",

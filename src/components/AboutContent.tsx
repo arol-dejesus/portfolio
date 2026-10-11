@@ -30,7 +30,7 @@ export default function AboutContent() {
             <div className="relative w-full max-w-[360px] aspect-square">
               <Image
                 src="/assets/images/about/arol.jpg"
-                alt="Arol Dejesus"
+                alt="Arol Djoutsop"
                 fill
                 sizes="(max-width: 768px) 90vw, 360px"
                 className="object-cover object-center rounded-xl"

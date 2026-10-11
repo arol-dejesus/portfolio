@@ -6,7 +6,7 @@ import { postsConfig } from "@/config/posts";
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 
-const SITE_URL = 'https://aroldejesus.vercel.app';
+const SITE_URL = 'https://aroldjoutsop.vercel.app';
 
 // Generate static paths
 export async function generateStaticParams() {
@@ -84,8 +84,8 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
     dateModified: post.date,
     url,
     image: `${SITE_URL}${post.image}`,
-    author: { '@type': 'Person', name: 'Arol Dejesus', url: SITE_URL },
-    publisher: { '@type': 'Person', name: 'Arol Dejesus', url: SITE_URL },
+    author: { '@type': 'Person', name: 'Arol Djoutsop', url: SITE_URL },
+    publisher: { '@type': 'Person', name: 'Arol Djoutsop', url: SITE_URL },
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
     keywords: post.tags?.join(', '),
   };

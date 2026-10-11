@@ -24,8 +24,8 @@ export const fr = {
   hero: {
     availability: "Disponible pour missions freelance",
     greeting: "Bonjour, je suis",
-    realNameLabel: "De vrai nom :",
-    realName: "Arol Sorelle Djoutsop",
+    realNameLabel: "Aussi connu sous :",
+    realName: "Arol Dejesus",
     description: [
       "Ingénieur logiciel et développeur full-stack, je conçois des applications web et mobiles pensées pour durer — rapides, robustes et simples à prendre en main.",
       "J'accompagne startups, PME et porteurs de projet de la première maquette jusqu'à la mise en production : React et Node.js côté web, Flutter sur mobile, et une automatisation soignée (CI/CD, cloud & VPS) pour livrer vite et sans mauvaise surprise. Ouvert au télétravail et aux missions freelance.",
@@ -135,6 +135,7 @@ export const fr = {
       { title: "Bal UAO — Vote en ligne", description: "Plateforme de vote pour l'élection du Roi & de la Reine du Bal de l'Université Alassane Ouattara : paiement Mobile Money, vote sécurisé et résultats en direct." },
       { title: "Folio E-School", description: "Plateforme de cours de langues (anglais, français, allemand, turc) avec des experts natifs — apps iOS/Android et version web, en architecture microservices." },
       { title: "NKWEL — E-commerce", description: "Application mobile e-commerce (Flutter) pour faire ses provisions du marché sans se déplacer : établissements, catégories, paiement sécurisé et livraison." },
+      { title: "NKWEL — Web", description: "Version web de NKWEL : place de marché en ligne pour faire ses provisions sans se déplacer, avec paiement sécurisé et livraison." },
       { title: "Saah Auto — App auto", description: "Application mobile (Flutter) de vente de voitures pour le concessionnaire Saah (Groupe Dema Residence, Yaoundé) : annonces, recherche et mise en relation." },
       { title: "NH Guide — Aide humanitaire", description: "Plateforme d'aide humanitaire et sociale (hébergement d'urgence, accès au logement, cours d'accompagnement), menée en collaboration avec le gouvernement américain." },
       { title: "Sayes Performance", description: "Plateforme de gestion pour une salle de sport dédiée à l'entraînement de sportifs professionnels (football, etc.), en collaboration avec des partenaires turcs." },

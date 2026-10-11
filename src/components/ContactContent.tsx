@@ -71,7 +71,7 @@ export default function ContactContent() {
             email,
             message,
             subject: subject || `Nouveau message du portfolio — ${name}`,
-            from_name: 'Portfolio Arol Dejesus',
+            from_name: 'Portfolio Arol Djoutsop',
           }),
         });
         const json = await res.json();

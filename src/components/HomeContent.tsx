@@ -20,7 +20,7 @@ export default function HomeContent() {
           <h1 className="animate-fade-up text-4xl font-bold tracking-tight text-neutral-900 dark:text-white sm:text-5xl lg:text-6xl">
             {t.hero.greeting}{' '}
             <span className="text-brand-green dark:text-brand-green-light">Arol</span>
-            <span className="text-brand-500">Dejesus</span>
+            <span className="text-brand-500">Djoutsop</span>
           </h1>
           <p className="animate-fade-up mt-2 text-base font-medium text-neutral-500 dark:text-neutral-400" style={{ animationDelay: '90ms' }}>
             <span className="text-neutral-400 dark:text-neutral-500">{t.hero.realNameLabel} </span>
@@ -88,7 +88,7 @@ export default function HomeContent() {
               <div className="absolute inset-[6px] overflow-hidden [clip-path:polygon(50%_0%,100%_25%,100%_75%,50%_100%,0%_75%,0%_25%)]">
                 <Image
                   src="/assets/images/about/arol-hero.jpg"
-                  alt="Arol Dejesus"
+                  alt="Arol Djoutsop"
                   fill
                   sizes="(max-width: 768px) 80vw, 380px"
                   className="object-cover object-center"
