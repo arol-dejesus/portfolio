@@ -30,7 +30,7 @@ export const projectsConfig = {
       title: "Folio E-School",
       description:
         "Plateforme de cours de langues (anglais, français, allemand, turc) avec des experts natifs — apps iOS/Android et version web, en architecture microservices.",
-      href: "https://github.com/arol-dejesus/E-SCHOOL-V2-LANGINGPAGE",
+      href: "https://github.com/aroldjoutsop/E-SCHOOL-V2-LANGINGPAGE",
       imageUrl: "/assets/images/projects/foliotsa-eschool.png"
     },
     {
@@ -51,7 +51,7 @@ export const projectsConfig = {
       title: "Saah Auto — App auto",
       description:
         "Application mobile (Flutter) de vente de voitures pour le concessionnaire Saah (Groupe Dema Residence, Yaoundé) : annonces, recherche et mise en relation.",
-      href: "https://github.com/arol-dejesus/saah-auto",
+      href: "https://github.com/aroldjoutsop/saah-auto",
       imageUrl: "/assets/images/projects/saah-auto-mobile.png"
     },
     {

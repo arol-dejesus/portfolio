@@ -97,7 +97,7 @@ const personJsonLd = {
   ],
   knowsAbout: ['React', 'Next.js', 'Node.js', 'TypeScript', 'Flutter', 'DevOps', 'CI/CD', 'Référencement SEO', 'Entrepreneuriat'],
   sameAs: [
-    'https://github.com/arol-dejesus',
+    'https://github.com/aroldjoutsop',
     'https://www.linkedin.com/in/arol-dejesus-5175182a2',
     'https://www.facebook.com/share/15yX33PE6kP/',
     'https://www.pinterest.com/aroldjoutsop',

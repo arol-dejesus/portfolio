@@ -45,7 +45,7 @@ export const globalConfig = {
     copyright: "© 2026 Arol Djoutsop. All rights reserved ",
     social: {
       linkedin: "https://www.linkedin.com/in/arol-dejesus-5175182a2",
-      github: "https://github.com/arol-dejesus",
+      github: "https://github.com/aroldjoutsop",
       facebook: "https://www.facebook.com/share/15yX33PE6kP/",
       email: "aroldjoutsop19@gmail.com"
     }
