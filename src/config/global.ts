@@ -46,7 +46,7 @@ export const globalConfig = {
     social: {
       linkedin: "https://www.linkedin.com/in/arol-djoutsop-5175182a2",
       github: "https://github.com/aroldjoutsop",
-      facebook: "https://www.facebook.com/share/15yX33PE6kP/",
+      facebook: "https://www.facebook.com/share/1UgVtAeYqP/",
       email: "aroldjoutsop19@gmail.com"
     }
   }

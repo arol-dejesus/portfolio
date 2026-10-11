@@ -99,7 +99,7 @@ const personJsonLd = {
   sameAs: [
     'https://github.com/aroldjoutsop',
     'https://www.linkedin.com/in/arol-djoutsop-5175182a2',
-    'https://www.facebook.com/share/15yX33PE6kP/',
+    'https://www.facebook.com/share/1UgVtAeYqP/',
     'https://www.pinterest.com/aroldjoutsop',
     'https://foliotr.com',
     'https://foliotsa.net',
