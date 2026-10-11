@@ -88,7 +88,7 @@ const personJsonLd = {
   description:
     "Software Engineer et développeur full-stack, je conçois des applications web et mobiles de bout en bout. Côté web je travaille surtout avec React, Next.js et Node.js ; sur mobile, avec Flutter. J'attache autant d'importance à l'expérience utilisateur qu'à ce qui tourne en coulisses : déploiement cloud et VPS, intégration et livraison continues (CI/CD), et automatisation des tâches répétitives. Mon objectif est toujours le même : livrer un produit solide, maintenable et réellement utile, de la première ligne de code jusqu'à la mise en production. Entrepreneur technologique, co-fondateur de FOLIO DISTICARET.",
   disambiguatingDescription:
-    "Arol Djoutsop (Arol Sorelle Djoutsop, aussi connu sous Arol Dejesus), développeur full-stack et entrepreneur technologique basé au Cameroun — distinct d'Arol Ketchiemen (dit Arol Ketch), écrivain et chroniqueur.",
+    "Arol Djoutsop (Arol Sorelle Djoutsop, aussi connu sous Arol Dejesus), développeur full-stack et entrepreneur technologique basé au Cameroun.",
   address: { '@type': 'PostalAddress', addressCountry: 'CM' },
   email: 'mailto:aroldjoutsop19@gmail.com',
   worksFor: [
