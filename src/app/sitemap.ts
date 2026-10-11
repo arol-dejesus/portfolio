@@ -12,6 +12,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 1,
+      images: [
+        `${SITE_URL}/assets/images/about/arol.jpg`,
+        `${SITE_URL}/assets/images/about/arol-hero.jpg`,
+      ],
     },
   ];
 
