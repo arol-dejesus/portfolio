@@ -8,8 +8,22 @@ export default function FaqContent() {
   const t = useT();
   const [open, setOpen] = useState<number | null>(0);
 
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: t.faq.items.map((item) => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: { '@type': 'Answer', text: item.a },
+    })),
+  };
+
   return (
     <div className="relative z-20 max-w-3xl mx-auto px-7 py-16 lg:px-8 lg:py-24">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       <Reveal className="text-center max-w-2xl mx-auto">
         <span className="inline-block text-[0.7rem] font-semibold uppercase tracking-[0.3em] text-brand-500">
           FAQ

@@ -17,6 +17,10 @@ export const fr = {
   trust: {
     label: "Ils m'ont fait confiance",
   },
+  testimonials: {
+    title: "Ce qu'ils en disent",
+    description: "Retours de clients et partenaires avec qui j'ai travaillé.",
+  },
   hero: {
     availability: "Disponible pour missions freelance",
     greeting: "Bonjour, je suis",

@@ -11,6 +11,7 @@ import ProcessContent from '@/components/ProcessContent';
 import FaqContent from '@/components/FaqContent';
 import FinalCta from '@/components/FinalCta';
 import TrustBand from '@/components/TrustBand';
+import TestimonialsContent from '@/components/TestimonialsContent';
 import Reveal from '@/components/Reveal';
 
 export default function Home() {
@@ -41,6 +42,9 @@ export default function Home() {
             <ServicesContent />
           </Reveal>
         </section>
+
+        {/* Témoignages — preuve sociale qualitative (masqué si aucune citation réelle) */}
+        <TestimonialsContent />
 
         {/* Process — rassure sur la façon de travailler */}
         <section id="process" className="scroll-mt-20">

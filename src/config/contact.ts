@@ -3,8 +3,8 @@ export const contactConfig = {
   description:
     "Une idée de projet, une mission freelance ou simplement une question ? Écris-moi, je réponds rapidement.",
   email: "aroldjoutsop19@gmail.com",
-  phone: "+237 696 41 02 09",
-  phoneHref: "+237696410209",
+  phone: "+237 682 19 41 62",
+  phoneHref: "+237682194162",
   location: "Cameroun",
   // On utilise Web3Forms (gratuit, sans backend) — endpoint PHP désactivé.
   endpoint: "",

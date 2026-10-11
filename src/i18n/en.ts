@@ -17,6 +17,10 @@ export const en: Dictionary = {
   trust: {
     label: "Trusted by",
   },
+  testimonials: {
+    title: "What they say",
+    description: "Feedback from clients and partners I've worked with.",
+  },
   hero: {
     availability: "Available for freelance work",
     greeting: "Hi, I'm",
